@@ -1,0 +1,24 @@
+a{
+    text-decoration: none;
+    color: inherit;
+    border-bottom: .15rem solid red;
+}
+a:hover{
+    background-color: darkred;
+    color: white;
+}
+a[href$=".pdf"]{
+    border-bottom: .15rem solid blueviolet;
+    /* background-image: url(flamenco4.jpg);
+    background-repeat: no-repeat;
+    background-position: right; */
+} 
+a[href$=".pdf"]:hover{
+    background-color: purple;
+}
+
+/*
+^= -> Empieza por...
+$= -> Termina por...
+*= -> Contiene...
+*/

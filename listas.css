@@ -1,0 +1,40 @@
+ul{
+    margin: 1rem;
+    list-style: square;
+    /* list-style-position: inside; */
+    /* list-style-image: url(); */
+}
+ol{
+    margin: 1rem;
+    list-style-type: lower-greek;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0%;
+    list-style-type: none;
+    padding: 0rem 0rem;
+    overflow: auto;
+    background-color: royalblue;
+}
+nav ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 0px;
+    background-color: royalblue;
+    border: .15rem solid royalblue;
+}
+nav ul li:hover{
+    background-color: slateblue;
+}
+nav ul li a:hover{
+    background-color: inherit;
+}
+ul li a:active{
+    color: black;
+}
+/* nav a{
+    border: none;
+    display: block;
+} */

@@ -1,0 +1,17 @@
+label{
+    /* display: block; */
+    float: left;
+    width: 15%;
+}
+/* fieldset div{
+    padding: 1%;
+} */
+input{
+    width: 35%;
+}
+input[type="submit"]{
+    width: auto;
+}
+input:focus{
+    border: seagreen solid .1rem;
+}

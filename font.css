@@ -1,0 +1,41 @@
+*{
+    font-family: 'Merienda';
+}
+section,footer{
+    border-radius: 1rem 2rem;
+}
+footer{
+    margin: 1.3rem;
+    box-shadow: .8rem .8rem .8rem darkviolet;
+}
+h2:first-letter{
+    font-size: 3rem;
+}
+p:first-line{
+    color: darkred;
+}
+h2{
+    text-shadow: .13rem .13rem darkgrey;
+}
+
+/* 
+@font-face{
+    font-family: 'fuente';
+    src: url('fuente');
+} 
+
+p{
+    font-variant: small-caps; **VERSALITA**
+}
+
+.sub{
+    vertical-align: sub;
+    font-size: .7rem;
+}
+
+.sup{
+    vertical-align: sup;
+    font-size: .7rem;
+}
+
+*/

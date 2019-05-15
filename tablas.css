@@ -1,0 +1,31 @@
+table{
+    border-collapse: collapse;
+    color: white;
+    width: 100%;
+    overflow: hidden;
+    margin: 1rem 0rem;
+    
+}
+td{
+    border: .1rem red solid;
+    text-align: center;
+}
+caption{
+    border: .1rem red solid;
+    text-align: center;
+    background-color: red;
+}
+tr:nth-of-type(2n+0) td:nth-of-type(2n+0){
+    background-color: firebrick;
+}
+tr:nth-of-type(2n+1) td:nth-of-type(2n+0){
+    background-color: darksalmon;
+    color: black;
+}
+tr:nth-of-type(2n+1) td:nth-of-type(2n+1){
+    background-color: firebrick;
+}
+tr:nth-of-type(2n+0) td:nth-of-type(2n+1){
+    background-color: darksalmon;
+    color: black;
+}

@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    /* font-variant-caps: small-caps; */
+    text-align: justify;
+    margin: 0rem;
+}
+body{
+    /* width: 90%; */
+    margin: auto;
+    background-color: gold;
+}
+h1{
+    /* border-bottom: 0.2rem dashed red; */
+    width: 40%;
+    padding: 1rem;
+}
+img{
+    border: 0.15rem solid rgb(0, 0, 214);
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+div{
+    overflow: auto;
+    padding: 1rem;
+}
+section{
+    background-color: rgb(210, 242, 255);
+    width: 99%;
+    float: left;
+    padding: 1rem;
+    overflow: auto;
+    border: 0.2rem dotted rgb(0, 165, 165);
+}
+section + section{
+    margin-left: 1%;
+}
+body{
+    background-color: ghostwhite;
+}
+footer{
+    margin-top: 1rem;
+    background-color: rgba(255, 187, 255, 0.76);
+    border: 0.5rem double rgb(170, 0, 170);
+    padding: 1rem;
+}
+p{
+    margin-bottom: 1rem;
+}
+section p:last-of-type{
+    margin-bottom: 0;
+}

@@ -1,0 +1,42 @@
+/* +: Selector contiguo */
+/* ~: Selector adyacente */
+/* *: Selector universal */
+/* .: Selector clase */
+/* #: Selector id */
+/* ,: Agrupación de selectores */
+/* >: Selector de hijo directo */
+/* []: Selector de atributo.. $: termine por x.. *: contega x.. ^: empiece por x..*/
+/* :nth-child(an+b) */
+/* :nth-of-type(an+b) */
+header{
+    margin: 0px;
+    background-color: floralwhite;
+}
+section{
+    margin: 0px;
+    background-color: floralwhite;
+}
+section p:nth-of-type(even){
+    color: darkred;
+}
+section p:nth-of-type(2n+1){
+    color: indigo;
+}
+li:nth-of-type(odd){
+    color: blueviolet;
+}
+li:nth-of-type(2n+2){
+    color: crimson;
+}
+section h2{
+    color: darkslateblue;
+}
+h1{
+    color: maroon;
+}
+h3:first-of-type{
+    color: forestgreen;
+}
+aside{
+    position: relative;
+}
